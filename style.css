@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+.header {
+  background-color: black;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 20px 40px;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.header-button {
+  display: flex;
+  justify-content: center;
+}
+.s1-col {
+  background: url(./assets/png/16b21583e14c9cf3682fb38baa05ecc7317f0cbf.png)
+    no-repeat center/cover;
+  height: 265px;
+  width: 100%;
+  position: relative;
+  transition: 0.6s;
+  overflow: hidden;
+}
+.s1-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 50px 300px;
+}
+.s1-col-advanced {
+  background: url(./assets/png/16b21583e14c9cf3682fb38baa05ecc7317f0cbf.png)
+    no-repeat center/cover;
+  grid-row: span 2;
+  position: relative;
+  transition: 0.6s;
+  overflow: hidden;
+}
+.s1-col-hover1 {
+  color: white;
+  height: 560px;
+  position: absolute;
+  transition: 0.6s;
+  left: -270px;
+}
+.s1-col-advanced:hover .s1-col-hover1 {
+  left: 0;
+  transition: 0.6s;
+}
+.s1-minilogo button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  width: 62px;
+  height: 22px;
+}
+.s1-minilogo {
+  padding: 20px 0px 0 10px;
+}
+.s1-overview h1 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.s1-overview p {
+  font-size: 18px;
+  width: 250px;
+}
+.s1-overview {
+  display: flex;
+  flex-direction: column;
+  padding: 430px 0px 0 10px;
+}
+.s1-overview2 {
+  display: flex;
+  flex-direction: column;
+  padding: 151px 0px 0 10px;
+}
+.s1-col-hover2 {
+  color: white;
+  height: 267px;
+  position: absolute;
+  transition: 0.6s;
+  left: -270px;
+}
+.s1-col:hover .s1-col-hover2 {
+  left: 0;
+  transition: 0.6s;
+}
+.s1-overview2 h1 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .s1-overview2 p {
+    font-size: 18px;
+    width: 250px;
+  }
